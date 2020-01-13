@@ -1,0 +1,37 @@
+{
+    "cSpell.words": [
+        "CERN's",
+        "adduser",
+        "cmake",
+        "cortana",
+        "dbus",
+        "ghostscript",
+        "ntfs",
+        "pacman",
+        "passwd",
+        "pdfs",
+        "pyhton",
+        "rsync",
+        "sudoers",
+        "targetpw",
+        "useradd",
+        "usergroups",
+        "xlaunch"
+    ],
+    "cSpell.ignoreWords": [
+        "d",
+        "dbuiltin",
+        "dcmake",
+        "drvfs",
+        "gemfile",
+        "githubusername",
+        "install",
+        "nopause",
+        "pdfwrite",
+        "plainwhite",
+        "prefix",
+        "thelehhman",
+        "thisroot",
+        "xrootd"
+    ]
+}
