@@ -31,10 +31,7 @@ Assuming that you saved your figure in a separate file
 % Use this command when inputting your files, as to avoid the 
 % default numbering scheme of Tikz, which is known toi get lost
 % when you reorder figures
-\newcommand{\inputtikz}[1]{%
-  \tikzsetnextfilename{#1}%
-  \input{#1.tex}%
-}
+\newcommand{\inputtikz}[1]{\tikzsetnextfilename{#1}\input{#1.tex}}
 
 \begin{document}
 \inputtikz{MyFigure}
