@@ -5,22 +5,6 @@ date:   2020-03-20 19:09:00 -0300
 categories: physics heavy-ion-collisions relativity light-cone-coordinates spatial-rapidity proper-time
 ---
 
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    jax: ["input/TeX", "output/HTML-CSS"],
-    tex2jax: {
-      inlineMath: [ ['$', '$'], ["\\(", "\\)"] ],
-      displayMath: [ ['$$', '$$'], ["\\[", "\\]"] ],
-      processEscapes: true,
-      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    }
-    //,
-    //displayAlign: "left",
-    //displayIndent: "2em"
-  });
-</script>
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
-
 # Overview of Milne coordinates (aka light-cone coordinates)
 
 In relativistic heavy-ion collisions, it is usual to replace the 
