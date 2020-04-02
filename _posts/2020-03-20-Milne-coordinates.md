@@ -226,10 +226,10 @@ And for covariant vectors
 
 <center>
 $\begin{align}
-\nabla_\tau u_\tau          = \partial_\tau u_\tau \\
-\nabla_\tau u_{\eta_s}      = \partial_\tau u_{\eta_s} - u_{\eta_s}/\tau\\
-\nabla_{\eta_s} u_{\tau}    = \partial_{\eta_s} u_{\tau} - u_{\eta_s}/\tau\\
-\nabla_{\eta_s} u_{\eta_s}  = \partial_{\eta_s} u_{\eta_s} - \tau u_{\tau}
+\nabla_\tau u_\tau          & = \partial_\tau u_\tau \\
+\nabla_\tau u_{\eta_s}      & = \partial_\tau u_{\eta_s} - u_{\eta_s}/\tau\\
+\nabla_{\eta_s} u_{\tau}    & = \partial_{\eta_s} u_{\tau} - u_{\eta_s}/\tau\\
+\nabla_{\eta_s} u_{\eta_s}  & = \partial_{\eta_s} u_{\eta_s} - \tau u_{\tau}
 \end{align}$
 </center>
 
