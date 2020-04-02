@@ -8,7 +8,7 @@ categories: physics heavy-ion-collisions relativity light-cone-coordinates spati
 # Overview of Milne coordinates (aka light-cone coordinates)
 
 In relativistic heavy-ion collisions, it is usual to replace the 
-usual coordinate system $(t,z,y,x)$ for the *Milne coordinates*. One of the 
+usual coordinate system $$(t,z,y,x)$$ for the *Milne coordinates*. One of the 
 reasons is that the relativistic hydrodynamic equations, which is commonly used
 to model the system's evolution, may become simpler in this case.
 
@@ -17,14 +17,13 @@ coordinates and summarize the main relations between them. First, its
 definition is given as
 
 $$
-\tau = \sqrt{t^2 - z^2} \\
+\tau = \sqrt{t^2 - z^2} \\\\
 \eta_s = \frac{1}{2} \ln\left(\frac{t+z}{t-z}\right)\,.
 $$
 
 Throughout this post, I will ignore x and y coordinates because they suffer no
-transformation. Thus, all computations will be restricted to the 
-$(z,t)$/$(\tau,\eta_s)$ plane. I should also point out some sources which
-was invaluable for me:
+transformation. Thus, all computations will be restricted to the $$(z,t)$$/$$(\tau,\eta_s)$$
+plane. I should also point out some sources which was invaluable for me:
 
 - Text-book reference:  R. Vogt - Ultrarelativistic Heavy-Ion collisions: 
   Contains examples of the use of Milne coordinates (referred also as light-cone 
@@ -34,14 +33,14 @@ was invaluable for me:
 - [These lecture slides](https://www.physik.uni-bielefeld.de/~borghini/Teaching/Hydrodynamics15/06_09-slides.pdf) by N. Borghini, of U. Bielefeld
 
 
-$\tau$ is called proper-time. Of course, this is not the usual proper-time 
+ $$\tau$$ is called proper-time. Of course, this is not the usual proper-time 
 relation of relativity, but it is closely related. Specifically, it is the
-proper-time of a particle with constant velocity in the $z$ direction. 
-$\eta_s$ is called spatial-rapidity, since its expression is the rapidity one
+proper-time of a particle with constant velocity in the $$z$$ direction. 
+$$\eta_s$$ is called spatial-rapidity, since its expression is the rapidity one
 with momentum coordinates replaced by position.
 
 One advantage of these coordinates is that it naturally restricts your 
-positions inside the light cone. If $|z| > |t|$, then both the proper-time as 
+positions inside the light cone. If $$|z| > |t|$$, then both the proper-time as 
 the spatial-rapidity becomes complex numbers, which is outside of our domain.
 For this reason, it is also called light-cone coordinates.
 
@@ -53,10 +52,10 @@ would result in an negative argument of the logarithmic in the spatial-rapidity
 definition. Thus, only the upper light-cone should be considered.
 
 There is one more step that we should look when considering these coordinates.
-Where is the $\tau$ and $\eta_s$ axis. To discover this, one sets $\tau = 0$ 
-and obtain the equation $|t| = |z|$, i.e. the $\tau$ axis is exactly the 
-light-cones emerging from the origin of the system. And $\eta_s = 0$ will lead
-to $z = 0$. Thus the axis of $\eta_s$ coincides with the $z$ axis.
+Where is the $$\tau$$ and $$\eta_s$$ axis. To discover this, one sets $$\tau = 0$$ 
+and obtain the equation $$|t| = |z|$$, i.e. the $$\tau$$ axis is exactly the 
+light-cones emerging from the origin of the system. And $$\eta_s = 0$$ will lead
+to $$z = 0$$. Thus the axis of $$\eta_s$$ coincides with the $$z$$ axis.
 
 Finally, it is useful to know how to return to the usual coordinate system as 
 well
@@ -71,8 +70,8 @@ $$
 Now that we have an intuition about the reference frame and now how to 
 transform from and to these coordinates, it is time to transform tensors. 
 This is be done by computing the matrix
-$\Lambda_{\;\mu'}^\nu$, where the prime denotes the index in the Milne 
-coordinates, i.e. $\mu = t,\,z$ and $\mu' = \tau,\eta_s$. The transformation 
+$$\Lambda_{\;\mu'}^\nu$$, where the prime denotes the index in the Milne 
+coordinates, i.e. $$\mu = t,\,z$$ and $$\mu' = \tau,\eta_s$$. The transformation 
 matrix is defined as
 
 $$
